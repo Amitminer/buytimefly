@@ -1,0 +1,19 @@
+---
+name: BuyTFly
+version: 0.0.1
+main: BuyTFly\Main
+api: 4.18.2
+commands:
+  buytfly:
+    description: "buy time fly menu"
+    usage: "/buytfly"
+    permission: BuyTFly.command.buytfly
+    aliases:
+      - timefly
+      - tfly
+      - buyfly
+permissions:
+  BuyTFly.command.buytfly:
+    description: "Allows the user to run the buytfly command"
+    default: true
+...
